@@ -449,7 +449,7 @@ class __MultiSelectDialogFieldViewState<V>
                       ),
                     )
                 : widget.decoration,
-            padding: const EdgeInsets.all(10),
+            padding: const EdgeInsets.symmetric(vertical: 15),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
